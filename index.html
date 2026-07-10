@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio website for Erika Mondres, BPO professional specializing in customer support, virtual assistance, and bookkeeping." />
+    <title>Erika Mondres | Support & Operations Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hero" id="home">
+        <div class="hero-content">
+          <p class="eyebrow">Operations Support Specialist</p>
+          <h1>Hi, I'm Erika Mondres. Customer support by trade, bookkeeping by training, detail-obsessed by nature.</h1>
+          <p class="hero-copy">I bring calm precision to customer care, virtual operations, and back-office support.</p>
+          <div class="typing-wrapper" aria-live="polite">
+            <span data-typing></span><span class="cursor" aria-hidden="true"></span>
+          </div>
+          <a class="btn btn-primary" href="#skills">Explore My Workspace</a>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="section-heading">
+          <p class="section-kicker">About Me</p>
+          <h2>Reliable support for high-volume operations and critical client needs.</h2>
+        </div>
+        <p class="about-text">
+          Hi, I'm Erika — I help businesses handle the parts that keep everything else running: customer conversations, back-office admin, and the books. I started in customer support, where I learned to stay calm and clear-headed even during high-stakes disputes and high call volumes. That experience pulled me toward the operational side of business — the CRM systems, the record-keeping, the audit trails that make sure nothing gets lost. So I added hands-on bookkeeping training (QuickBooks, AP/AR, reconciliations) to round it out. I have a background in Computer Engineering, which shows up in how I work — I like systems, I like things organized, and I get genuinely satisfied when a messy inbox or an unreconciled account finally clicks into place. If you need someone detail-driven, fast to respond, and comfortable owning both the customer-facing and behind-the-scenes side of your business, that's where I come in.
+        </p>
+      </section>
+
+      <section class="section" id="metrics">
+        <div class="section-heading">
+          <p class="section-kicker">Impact Metrics</p>
+          <h2>Operational results that support growth and stability.</h2>
+        </div>
+        <div class="metrics-grid">
+          <article class="metric-card">
+            <span class="metric-value" data-target="2" data-suffix="+">0</span>
+            <p>Combined experience in support and back-office operations.</p>
+          </article>
+          <article class="metric-card">
+            <span class="metric-value" data-target="100" data-suffix="%">0</span>
+            <p>Data integrity maintained across corporate CRM platforms.</p>
+          </article>
+          <article class="metric-card">
+            <span class="metric-value" data-target="6" data-suffix="+">0</span>
+            <p>Specialized software platforms mastered for remote operations.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-heading">
+          <p class="section-kicker">Interactive Skill Showroom</p>
+          <h2>Tools I use to keep workflows moving smoothly.</h2>
+        </div>
+        <div class="skill-showroom">
+          <div class="skill-list" role="list">
+            <button class="skill-chip" data-skill="zendesk">Zendesk</button>
+            <button class="skill-chip" data-skill="convoso">Convoso</button>
+            <button class="skill-chip" data-skill="slack">Slack</button>
+            <button class="skill-chip" data-skill="teams">MS Teams</button>
+            <button class="skill-chip" data-skill="sheets">Google Sheets / Excel</button>
+            <button class="skill-chip" data-skill="quickbooks">QuickBooks Online</button>
+          </div>
+          <aside class="skill-details" aria-live="polite">
+            <h3 data-skill-title>Zendesk Expertise</h3>
+            <p data-skill-text></p>
+            <ul data-skill-list></ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="section-heading">
+          <p class="section-kicker">Experience Timeline</p>
+          <h2>Operational scenarios & solutions.</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <h3>Lead Generation & CRM Auditing</h3>
+            <p>Executed high-volume outbound campaigns while auditing call logs immediately after interactions to secure zero information loss.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <h3>High-Tier Dispute Resolution</h3>
+            <p>Handled complex customer disputes for critical international accounts within strict compliance guidelines and fast response expectations.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <h3>Meticulous Back-Office Audits</h3>
+            <p>Verified records against source documents, applied approved adjustments, and strengthened reconciliation accuracy.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="section-heading">
+          <p class="section-kicker">Contact Me</p>
+          <h2>Get In Touch</h2>
+        </div>
+        <div class="contact-layout">
+          <form class="contact-form" method="POST" action="https://formspree.io/f/xgojgkvn">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              <span>Email Address</span>
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              <span>Subject</span>
+              <input type="text" name="_subject" placeholder="How can I help?" required />
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="5" placeholder="Tell me about your project or need." required></textarea>
+            </label>
+            <button type="submit" class="contact-btn">Send Message</button>
+          </form>
+
+          <aside class="contact-card">
+            <h3>Let's build something steady and seamless.</h3>
+            <p>Whether you need dependable support, organized back-office help, or someone who can bridge customer service with bookkeeping, I’d love to connect.</p>
+            <ul>
+              <li><strong>Email:</strong> <a href="mailto:e.mondres17@yahoo.com">e.mondres17@yahoo.com</a></li>
+              <li><strong>Phone:</strong> <a href="tel:+639459849131">+63 945 984 9131</a></li>
+              <li><strong>Location:</strong> Dipolog City, Philippines</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="footer">
+      <p class="footer-quote">Let's accelerate your operational efficiency together.</p>
+      <div class="footer-links">
+        <span>Location: Dipolog City, Zamboanga del Norte, Philippines</span>
+        <a href="https://linkedin.com/in/emondres" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
